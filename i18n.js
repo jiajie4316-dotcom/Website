@@ -123,7 +123,6 @@
     whatsappCta: 'Scrivici',
     socialTitle: 'Seguici sui social',
     socialPlaceholder: 'Link in arrivo',
-    instagramCta: 'Visita il profilo'
   };
   var textEls = document.querySelectorAll('[data-i18n]');
   var attrEls = document.querySelectorAll('[data-i18n-content]');
