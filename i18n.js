@@ -145,7 +145,7 @@
   var saved = null;
   try { saved = localStorage.getItem('lang'); } catch (e) {}
   var lang = saved || 'it';
-  if (lang === 'it') apply('it');
+  apply(lang);
 
   button.addEventListener('click', function () {
     apply(document.documentElement.lang === 'it' ? 'en' : 'it');
