@@ -121,7 +121,7 @@
     alternativePhone: 'Numero alternativo',
     phonePlaceholder: 'Numero da inserire',
     whatsappCta: 'Scrivici',
-    socialTitle: 'Seguici sui social',
+    socialTitle: 'Prenota su WhatsApp',
     socialPlaceholder: 'Link in arrivo',
   };
   var textEls = document.querySelectorAll('[data-i18n]');
