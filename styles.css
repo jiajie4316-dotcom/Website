@@ -426,15 +426,6 @@ h3 {
 }
 
 
-.social-placeholder[href] {
-  cursor: pointer;
-  transition: border-color 0.15s ease, color 0.15s ease;
-}
-
-.social-placeholder[href]:hover {
-  border-color: var(--red);
-}
-
 
 .contact-placeholder a {
   color: var(--red);
