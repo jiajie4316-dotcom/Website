@@ -2,7 +2,7 @@
   --bg: #f6f3ea;        /* light yellowish grey-white */
   --surface: #fbf9f3;
   --ink: #2a2622;
-  --muted: #7a7268;
+  --muted: #625b53;
   --line: #e3ddcf;
   --red: #c8102e;
   --yellow: #f2b705;
@@ -308,13 +308,14 @@ address {
 }
 
 @media (max-width: 520px) {
-nav {
-  gap: 0.9rem;
-  font-size: 0.88rem;
-}
-.logo span:last-child {
-  display: none;
-}
+  nav {
+    gap: 0.9rem;
+    font-size: 0.88rem;
+  }
+
+  .logo span:last-child {
+    display: none;
+  }
 }
 
 .lang-toggle {
@@ -335,9 +336,6 @@ nav {
 }
 
 /* Readability and keyboard access */
-:root {
-  --muted: #625b53;
-}
 
 body {
   font-size: 1.0625rem;
@@ -389,13 +387,15 @@ h3 {
 }
 
 @media (max-width: 520px) {
-body {
-  font-size: 1rem;
-}
-.menu-list li {
-  padding-block: 0.8rem;
-}
-.dots {
-  margin-inline: 0.3rem;
-}
+  body {
+    font-size: 1rem;
+  }
+
+  .menu-list li {
+    padding-block: 0.8rem;
+  }
+
+  .dots {
+    margin-inline: 0.3rem;
+  }
 }
