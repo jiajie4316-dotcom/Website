@@ -434,3 +434,13 @@ h3 {
 .social-placeholder[href]:hover {
   border-color: var(--red);
 }
+
+
+.contact-placeholder a {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.contact-placeholder a:hover {
+  text-decoration: underline;
+}
