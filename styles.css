@@ -399,3 +399,31 @@ h3 {
     margin-inline: 0.3rem;
   }
 }
+
+
+/* Contact placeholders */
+.contact-placeholder,
+.social-placeholder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.4rem 1rem;
+  margin: 0.75rem 0;
+  padding: 0.85rem 1rem;
+  border: 1px dashed var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
+.contact-placeholder span,
+.social-placeholder span {
+  color: var(--muted);
+}
+
+.social-placeholders h3 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.social-placeholder strong {
+  color: var(--ink);
+}
