@@ -120,7 +120,7 @@
     alternativePhone: 'Numero alternativo',
     phonePlaceholder: 'Numero da inserire',
     socialTitle: 'Seguici sui social',
-    socialPlaceholder: 'Link da inserire'
+    socialPlaceholder: 'Link in arrivo'
   };
   var textEls = document.querySelectorAll('[data-i18n]');
   var attrEls = document.querySelectorAll('[data-i18n-content]');
