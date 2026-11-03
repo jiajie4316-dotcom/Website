@@ -224,3 +224,63 @@ address { font-style: normal; font-size: 1.1rem; margin-bottom: 0.5rem; }
   cursor: pointer;
 }
 .lang-toggle:hover { border-color: var(--red); color: var(--red); }
+
+/* Readability and keyboard access */
+:root {
+  --muted: #625b53;
+}
+
+body {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+nav {
+  font-size: 1rem;
+}
+
+.eyebrow {
+  font-size: 0.9rem;
+  letter-spacing: 0.16em;
+}
+
+.tagline {
+  font-size: clamp(1.125rem, 2.5vw, 1.25rem);
+}
+
+.menu-group {
+  margin-bottom: 3rem;
+}
+
+.menu-list li {
+  padding: 0.75rem 0.25rem;
+  border-bottom: 1px solid var(--line);
+  column-gap: 0.25rem;
+}
+
+.item,
+.price {
+  font-size: 1.05rem;
+}
+
+.menu-list p,
+.menu-pdf p,
+.muted {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+}
+
+:where(a, button):focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+  body { font-size: 1rem; }
+  .menu-list li { padding-block: 0.8rem; }
+  .dots { margin-inline: 0.3rem; }
+}
