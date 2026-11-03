@@ -138,7 +138,7 @@
 
   var saved = null;
   try { saved = localStorage.getItem('lang'); } catch (e) {}
-  var lang = saved || ((navigator.language || '').toLowerCase().indexOf('it') === 0 ? 'it' : 'en');
+  var lang = saved || 'it';
   if (lang === 'it') apply('it');
 
   button.addEventListener('click', function () {
