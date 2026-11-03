@@ -101,6 +101,7 @@
     m65: '65. Insalata con granchio',
     m66: '66. Patatine fritte*',
     desserts: 'Dolci',
+    frozenNote: '* I prodotti possono essere congelati e/o surgelati.',
     m67: '67. Gelato fritto*',
     m68: '68. Frutta fritta',
     m69: '69. Cocco fritto*',
