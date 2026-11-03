@@ -120,6 +120,7 @@
     callNote: 'Per ordini da asporto, consegne a domicilio e prenotazioni. Accettiamo contanti, carte e Apple Pay.',
     alternativePhone: 'Numero alternativo',
     phonePlaceholder: 'Numero da inserire',
+    whatsappCta: 'Scrivici',
     socialTitle: 'Seguici sui social',
     socialPlaceholder: 'Link in arrivo',
     instagramCta: 'Visita il profilo'
