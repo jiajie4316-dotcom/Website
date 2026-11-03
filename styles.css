@@ -313,9 +313,6 @@ address {
     font-size: 0.88rem;
   }
 
-  .logo span:last-child {
-    display: none;
-  }
 }
 
 .lang-toggle {
