@@ -116,7 +116,11 @@
     closed: 'Chiuso',
     wedSun: 'Mer – Dom',
     callUs: 'Chiamaci',
-    callNote: 'Per asporto, consegna a domicilio e prenotazioni. Accettiamo contanti, carte e Apple Pay.'
+    callNote: 'Per asporto, consegna a domicilio e prenotazioni. Accettiamo contanti, carte e Apple Pay.',
+    alternativePhone: 'Numero alternativo',
+    phonePlaceholder: 'Numero da aggiungere',
+    socialTitle: 'Seguici sui social',
+    socialPlaceholder: 'Link da aggiungere'
   };
   var textEls = document.querySelectorAll('[data-i18n]');
   var attrEls = document.querySelectorAll('[data-i18n-content]');
